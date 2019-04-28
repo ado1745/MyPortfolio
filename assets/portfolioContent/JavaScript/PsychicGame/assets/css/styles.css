@@ -1,0 +1,30 @@
+body {
+    background: url(../images/vintage-concrete.png);
+    align-content: center;
+    justify-content: center;
+    min-height: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.container {
+    margin-top: 150px;
+    flex: 0 0 70%;
+    text-align: center;
+    border: 3px solid rgb(129, 121, 121);
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 10px;
+
+}
+
+.jumbotron {
+    margin: auto;
+    background: url(../images/vintage-concrete.png);
+}
+
+h1 {
+    padding: 0 0 15px 0;
+}
+

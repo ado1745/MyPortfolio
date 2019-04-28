@@ -1,0 +1,53 @@
+body {
+    background:url(../pictures/mainBgr2.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    min-height: 100vh;
+
+    
+}
+
+p{
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.jumbotron{
+    background: rgba(220, 230, 240, 0.2);
+}
+
+.jumbotron>h1{
+    margin-bottom: 15px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* #buttonsDiv{
+    border: 1px solid black;
+} */
+
+.btn-warning {
+    margin: 5px;
+    font-family: 'Permanent Marker', cursive;
+   
+}
+
+
+.searchLable {
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#searchResult{
+    
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background: rgba(220, 230, 240, 0.2);
+    
+    text-align: center;
+}
+
+.searchImage {
+    padding: 5px;
+    border: solid 1px #EFEFEF;
+    box-shadow: 5px 5px 0px #999;
+}

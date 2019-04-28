@@ -1,0 +1,242 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: url(../siteImages/bodyBgr/concrete-texture.png);
+    margin: 0%;
+    padding: 0px;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.header {
+    background: white;
+}
+.header > .container > nav {
+    padding: 10px 0 0 0;
+}
+
+.navbar > .navbar-brand {
+    background: #4aaaa5;
+    padding: 10px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    pointer-events: none;
+   cursor: default;
+}
+
+#navbarNav {
+    color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.wrapper {
+    padding: 30px 0 40px 0;
+}
+.siteContent {
+    background: white;
+    border: 1px solid #4aaaa5;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+
+.siteContent > .row > .col >  h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4aaaa5;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #4aaaa5;    
+}
+
+/* ===============================     ABOUT     =================================== */
+#aboutMePic {  
+    width: 240px;
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+/* ===============================     ABOUT     =================================== */
+
+
+
+
+/* =============================== PORTFOLIO  =================================== */
+
+.h2Header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4aaaa5;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #4aaaa5;    
+}
+
+.portfolio_pics {
+    display: flex;
+    grid-template-columns: repeat(2, 250px);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(250px, auto);
+    padding: 2em;
+    }
+
+    .port_pics {
+        border: 1px #4aaaa5 solid;
+        width: 250px;
+    }
+
+    .portfolio > .row {
+        padding: 10px; 
+    }
+
+    .circlePic {
+        border-bottom-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        top: 134px;
+        position: absolute;
+        text-align: center;
+        padding: 20px;
+        background: #4aaaa5;
+        width: 250px;
+        color: white;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    
+    .portfolio > .row img {
+        width: 250px;
+        height: 250px;
+       
+    }
+
+  
+  
+    .circlePic:hover {
+        background: #257773;
+        border-top: 1px solid #4aaaa5;
+        opacity: 1;
+    }
+
+   
+
+
+/* =============================== PORTFOLIO  =================================== */
+
+
+
+
+/* =============================== FOOTER  =================================== */
+
+footer {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    
+    text-align: center;
+    font-size: 15px;
+    border-top: 8px solid #4aaaa5;
+    background: #666666;
+    color: white;
+    line-height: 30px;
+}
+/* =============================== FOOTER  =================================== */
+
+
+
+
+
+
+/* =============================== MEDIA TAGS  =================================== */
+
+
+
+
+
+@media (min-width: 768.1px) and (max-width: 1200px) {
+    .secondRow {
+        left: 100px;
+    }  
+}
+
+@media (min-width: 411.1px) and (max-width: 768px) {
+    .secondRow {
+        left: 0px;
+        right: 0px;
+        margin: 0 0px 0 80px;
+    }
+    .firstRow {
+        margin: 0 0px 0 80px;
+    }
+    
+}
+
+@media (min-width: 375.1px) and (max-width: 411px) {
+    #aboutMePic {
+        width: 330px;
+    }
+    .firstRow {
+        padding-bottom: 15px;
+        left: 30px;
+    }
+    .secondRow {
+        left: 30px;
+    }  
+    .h2Header {
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 360.1px) and (max-width: 375px) {
+    #aboutMePic {
+        width: 280px;
+    }
+    .firstRow {
+        padding-bottom: 15px;
+        left: 15px;
+    }
+    .secondRow {
+        left: 15px;
+    }  
+}
+
+
+@media (min-width: 320.1px) and (max-width: 360px) {
+    #aboutMePic {
+        width: 280px;
+    }
+
+    .firstRow {
+        left: 0px;
+    }
+    
+    .secondRow {
+        left: 0px;
+    }
+      
+}
+
+@media screen and (max-width: 320px) {
+    #aboutMePic {
+        width: 240px;
+    }
+   
+    .firstRow {
+        right: 15px;
+        padding-left: 0px;
+    }  
+
+    .secondRow {
+        padding-left:0px;
+    }
+}
+
+/* =============================== MEDIA TAGS  =================================== */

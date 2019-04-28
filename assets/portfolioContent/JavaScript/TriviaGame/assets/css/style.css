@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background: url(../images/finance-currency-calculator.jpg) no-repeat top center / cover;;
+}
+
+.jumbotron{
+  margin-top: 20px;
+}
+
+.header {
+  margin-bottom: 10px;
+  border: black 1px solid;
+  border-radius: 5px;
+  background: rgba(111, 143, 175, 0.2);
+}
+
+button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  margin: 10px auto 0;
+  font-size: 42px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+#quiz-area{
+  margin-bottom: 20px;
+  border: black 1px solid;
+  border-radius: 5px;
+  padding: 20px;
+  line-height: 35px;
+  background: rgba(111, 143, 175, 0.2);
+}
+
+.question {
+  font-weight: 600;
+}
+
+
+input {
+  margin-right: 7px;
+}
+
+button:hover {
+  background: green;
+  border: 2px solid blue;
+  
+}
